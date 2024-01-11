@@ -5,9 +5,5 @@ class Toilet {
   String? photo;
   Location? location;
 
-  Toilet({
-    this.name,
-    this.photo,
-    this.location,
-  });
+  Toilet({this.name, this.photo, this.location});
 }
